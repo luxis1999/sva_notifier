@@ -1,0 +1,2 @@
+# sva_notifier
+This patchset is to introduce a notifier framework for virt-SVA. You may find virt-SVA design details from the link below.  https://lists.gnu.org/archive/html/qemu-devel/2017-04/msg04925.html  SVA is short for Shared Virtual Addressing. This is also called Shared Virtual Memory in previous patchsets. However, SVM is confusing as it can also be short for Secure Virtual Machine. So this patchset use Shared Virtual Addressing instead of Shared Virtual Memory. And it would be applied in future (SVA)related patch series as well.
